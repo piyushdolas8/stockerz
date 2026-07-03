@@ -197,38 +197,21 @@ Through this project I gained hands-on experience with:
 # 🤝 Connect With Me
 
 <p align="left">
-
-<a href="https://www.linkedin.com/in/piyush-dolas-0567a6303">
-<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
-</a>
-
- 
-
-<a href="mailto:piyushdolas8@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
-</a>
-
- 
-
-<a href="https://github.com/piyushdolas8">
-<img src="https://skillicons.dev/icons?i=github" height="45"/>
-</a>
-
+  <a href="https://www.linkedin.com/in/piyush-dolas-0567a6303" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="LinkedIn"/>
+  </a>
+  &nbsp;
+  <a href="mailto:piyushdolas8@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://www.youtube.com/@piyushbuilds2026" target="_blank">
+    <img src="https://cdn.simpleicons.org/youtube/FF0000" height="45" alt="YouTube"/>
+  </a>
 </p>
-
----
 
 <p align="center">
 
 ⭐ If you found this project interesting, consider giving it a star!
 
 </p>
-:::writing{}
-
-### A couple of improvements I'd recommend
-
-* **Create a banner** (`Banner.png`) specifically for Stockerz. A dark-themed banner with a stock chart, candlesticks, and the title "Stockerz" will make the repository look much more polished.
-* Replace the placeholder "Application Preview" section with **2–3 screenshots** of your Streamlit dashboard. Screenshots dramatically increase the perceived quality of a project.
-* Add a **Live Demo** section if you deploy the app later (for example, on Streamlit Community Cloud or another hosting service).
-
-This README is already at a level you'd be comfortable showing to recruiters.
