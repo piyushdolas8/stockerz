@@ -150,15 +150,19 @@ streamlit run app.py
 
 # 📸 Application Preview
 
-> Add screenshots here after running the project.
+<p align="center">
 
-```
-Dashboard Screenshot
+### 🖥️ Dashboard
 
-Prediction Output
+<img src="Dashboard.png" width="95%">
 
-Interactive Chart
-```
+<br><br>
+
+### 📈 Prediction & Interactive Chart
+
+<img src="Prediction.png" width="95%">
+
+</p>
 
 ---
 
