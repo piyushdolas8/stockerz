@@ -1,61 +1,230 @@
-# 📈 Stockerz - AI Stock Predictor
+<p align="center">
+  <img src="Banner.png" alt="Stockerz Banner" width="100%">
+</p>
 
-Stockerz is a Machine Learning project that predicts the next day's stock closing price using historical stock market data.
+<h1 align="center">📈 Stockerz</h1>
 
-## 🚀 Features
+<h3 align="center">
+AI-Powered Stock Analysis & Prediction Dashboard
+</h3>
 
-- Download stock data from Yahoo Finance
-- Interactive stock charts
-- 50-Day Moving Average
-- 200-Day Moving Average
-- Next-day stock price prediction
-- Streamlit dashboard
-- Supports multiple stock tickers
+<p align="center">
+Analyze historical stock prices, visualize market trends, and predict the next day's closing price using Machine Learning.
+</p>
 
-## 🛠 Tech Stack
+<p align="center">
 
-- Python
-- Pandas
-- Scikit-learn
-- yfinance
-- Plotly
-- Streamlit
-- Joblib
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-F7931E?style=for-the-badge\&logo=scikitlearn\&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge\&logo=plotly\&logoColor=white)
 
-## Installation
+</p>
+
+---
+
+# 🚀 Overview
+
+**Stockerz** is an end-to-end Machine Learning project that enables users to:
+
+* 📈 Download real-time historical stock data
+* 📊 Visualize stock price trends
+* 📉 Analyze 50-Day & 200-Day Moving Averages
+* 🤖 Predict the next day's closing stock price
+* 🌐 Interact through a modern Streamlit dashboard
+
+The application combines data collection, preprocessing, machine learning, and interactive visualization into a single user-friendly dashboard.
+
+---
+
+# ✨ Features
+
+* 📥 Download stock data using Yahoo Finance
+* 📊 Interactive Plotly charts
+* 📈 50-Day Moving Average
+* 📉 200-Day Moving Average
+* 🤖 Machine Learning prediction
+* 💾 Saved ML model using Joblib
+* 🌐 Streamlit Web Dashboard
+* 🔍 Support for multiple stock tickers
+
+---
+
+# 🛠 Tech Stack
+
+### Programming Language
+
+<p>
+<img src="https://skillicons.dev/icons?i=python"/>
+</p>
+
+### Machine Learning
+
+* Scikit-learn
+* Pandas
+* NumPy
+
+### Data Source
+
+* Yahoo Finance API (yfinance)
+
+### Data Visualization
+
+* Plotly
+* Matplotlib
+
+### Web Framework
+
+* Streamlit
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+</p>
+
+---
+
+# 📂 Project Structure
+
+```text
+stockerz/
+│
+├── app.py                 # Streamlit Dashboard
+├── data.py                # Download Stock Data
+├── train.py               # Train Machine Learning Model
+├── predict.py             # Predict Next-Day Price
+├── visualize.py           # Stock Charts
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── apple_stock.csv
+│
+├── models/
+│   └── stock_model.pkl
+│
+└── venv/
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/piyushdolas8/stockerz.git
+```
+
+Move into the project
+
+```bash
+cd stockerz
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the app
+Run the application
 
 ```bash
 streamlit run app.py
 ```
 
-## Project Structure
+---
+
+# 📊 How It Works
+
+1. Download historical stock market data.
+2. Clean and preprocess the dataset.
+3. Calculate technical indicators.
+4. Train a Linear Regression model.
+5. Predict the next day's closing price.
+6. Display predictions and charts through Streamlit.
+
+---
+
+# 📸 Application Preview
+
+> Add screenshots here after running the project.
 
 ```
-stockerz/
-│
-├── app.py
-├── data.py
-├── train.py
-├── predict.py
-├── visualize.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-├── models/
-└── venv/
+Dashboard Screenshot
+
+Prediction Output
+
+Interactive Chart
 ```
 
-## Future Improvements
+---
 
-- LSTM-based prediction
-- Multiple ML model comparison
-- Technical indicators (RSI, MACD)
-- Real-time market data
-- News sentiment analysis
+# 🔮 Future Improvements
+
+* Random Forest Regressor
+* LSTM Deep Learning Model
+* GRU & Transformer Models
+* Technical Indicators (RSI, MACD, Bollinger Bands)
+* Real-Time Stock Prices
+* News Sentiment Analysis
+* Portfolio Tracker
+* Multi-Stock Comparison
+
+---
+
+# 📖 What I Learned
+
+Through this project I gained hands-on experience with:
+
+* Machine Learning workflow
+* Data preprocessing
+* Feature engineering
+* Financial data analysis
+* Interactive data visualization
+* Model serialization
+* Streamlit application development
+* Git & GitHub project management
+
+---
+
+# 🤝 Connect With Me
+
+<p align="left">
+
+<a href="https://www.linkedin.com/in/piyush-dolas-0567a6303">
+<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+</a>
+
+ 
+
+<a href="mailto:piyushdolas8@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+</a>
+
+ 
+
+<a href="https://github.com/piyushdolas8">
+<img src="https://skillicons.dev/icons?i=github" height="45"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+
+⭐ If you found this project interesting, consider giving it a star!
+
+</p>
+:::writing{}
+
+### A couple of improvements I'd recommend
+
+* **Create a banner** (`Banner.png`) specifically for Stockerz. A dark-themed banner with a stock chart, candlesticks, and the title "Stockerz" will make the repository look much more polished.
+* Replace the placeholder "Application Preview" section with **2–3 screenshots** of your Streamlit dashboard. Screenshots dramatically increase the perceived quality of a project.
+* Add a **Live Demo** section if you deploy the app later (for example, on Streamlit Community Cloud or another hosting service).
+
+This README is already at a level you'd be comfortable showing to recruiters.
