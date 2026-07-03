@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Banner.png" alt="Stockerz Banner" width="100%">
+  <img src="Stockerz.png" alt="Stockerz Banner" width="100%">
 </p>
 
 <h1 align="center">📈 Stockerz</h1>
