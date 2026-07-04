@@ -215,3 +215,5 @@ Through this project I gained hands-on experience with:
 ⭐ If you found this project interesting, consider giving it a star!
 
 </p>
+
+🚀 **Live Demo:** https://stockerz-ai.streamlit.app
